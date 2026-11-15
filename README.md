@@ -79,7 +79,7 @@ streaming and provider-agnostic application architecture.
 Clone the repository:
 
 ```bash
-git clone YOUR_REPOSITORY_URL
+git clone https://github.com/Dominic-kores/ai-writing-assistant
 cd ai-writing-assistant
 ```
 
@@ -117,26 +117,9 @@ npm test
 
 ## Live Application
 
-- Frontend: Add Vercel deployment URL
-- Backend: Add Railway deployment URL
+- Frontend: https://ai-writing-assistant-omega-sandy.vercel.app
+- Backend: https://ai-writing-assistant-production-5bbc1087.up.railway.app
 
-## Screenshots
-
-### Main Dashboard
-
-![Dashboard](screenshots/dashboard.png)
-
-### AI Streaming Output
-
-![Streaming](screenshots/streaming.png)
-
-### Provider Comparison
-
-![Comparison](screenshots/comparison.png)
-
-### Operation History
-
-![History](screenshots/history.png)
 
 ## Key Learning Outcomes
 
@@ -158,8 +141,10 @@ testing and full-stack deployment.
 - Additional language support
 - Document uploads
 
+
+
 ## Author
 
 Dominic Kores Kisioya
 
-Full-Stack Software & AI Engineering Student
+Full-Stack Software & AI Engineer
