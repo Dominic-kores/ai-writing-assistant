@@ -22,7 +22,7 @@ const openai = process.env.OPENAI_API_KEY
   : null;
 
 const models = {
-  anthropic: process.env.ANTHROPIC_MODEL || "claude-haiku-4-5",
+  anthropic: process.env.ANTHROPIC_MODEL || "claude-haiku-5-5",
   openai: process.env.OPENAI_MODEL || "gpt-4.1-mini",
 };
 

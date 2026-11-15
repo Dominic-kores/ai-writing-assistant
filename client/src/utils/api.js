@@ -1,6 +1,6 @@
 const API_URL = (
   import.meta.env.VITE_API_BASE_URL ||
-  "http://localhost:5001/api"
+  "https://ai-writing-assistant-production-5bbc1087.up.railway.app/api"
 ).replace(/\/$/, "");
 
 // Standard API request helper

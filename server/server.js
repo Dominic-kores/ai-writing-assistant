@@ -27,7 +27,7 @@ const PORT = process.env.PORT || 5001;
 app.use(helmet());
 
 const allowedOrigins = (
-  process.env.CLIENT_URL || "http://localhost:5173"
+  process.env.CLIENT_URL || "https://ai-writing-assistant-omega-sandy.vercel.app"
 ).split(",").map((url) => url.trim());
 
 app.use(cors({
